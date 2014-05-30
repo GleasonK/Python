@@ -1,0 +1,248 @@
+Link 1 - http://kevinagleason.co.nf
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+ Resume Home - Kevin Gleason 
+
+		Home
+		About Me
+
+		Kevin Gleason
+		Boston College '16
+
+		Web Resume Home
+
+		 Welcome! My name is Kevin Gleason, I am currently a sophomore at Boston College studying computer science and biology.I have a keen interest in web development, and I also love creating small programs that make my schoolwork easier.
+
+		 I discovered my passion for coding a little under a year ago and have dedicated much of my free time since then to learning all that I possibly can. I enjoy both front-end and back-end development.
+
+		Notable Works
+
+				All
+				JavaScript
+				HTML & CSS
+				jQuery
+				Other
+
+			The Torch Related Articles Script
+			Understanding of jQuery Syntax and Commands - COMING SOON
+			Advanced CSS Knowledge
+			Able to Integrate jQuery UI
+			Other Web Projects
+			Formal Education
+			The Torch Section Headlines
+			Coding Experience
+			This Sortable Portfolio Selector
+			COMING SOON
+			Drag and Drop Sortable
+			Contact Me
+
+Link 2 - http://kevinagleason.co.nf/about.php
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+ jQuery UI - Skills - Kevin Gleason 
+
+		Home
+		About Me
+
+		Kevin Gleason
+		Boston College '16
+
+		Experience
+
+		Coding Experience
+
+				Python - Skilled at logic flow and able to integrate TKInter and Pygame.
+				Java - Understanding of the basics of data structures and algorithm work.
+				HTML & CSS - Able to create table-less websites and know many CSS functions.
+				JavaScript - Knowledge of syntax and able to manipulate to perform logic based algorithms.
+				jQuery - Knowledge of syntax and able to integrate libraries like jQueryUI.
+				PHP & MySQL - Knowledge of syntax and able to validate input and make queries.
+
+		Work Experience
+
+				The Boston College Torch - Web designer and manager since its launch in September 2013.
+				Denture Solutions - Building website for North East Ohio mobile denture service working primarily in nursing homes.
+				Lifeguard - Acacia Country club (sold in 2012) to Gilmour Academy swim instructor 2011-2014.
+				Volunteering - 60+ hours of assisting a local farmer grow tomatoes, corn, and more 2008-2012				
+
+			Education
+			 Gilmour Academy High School
+			 2008-2012
+			Studies focused on math and science. Took as many AP's as allowed. Involved in National Honor Society, Cum Laude, Academic Challenge, Speech and Debate (state contender), Kairos, Soccer (captain), Basketball (captain), Tennis
+			AP Biology – 5; AP Calculus – 5; AP Chemistry – 4; AP Literature – 4; Cumulative GPA – 4.05ACT – 32;
+
+			 Boston College
+			 20012-2016
+			B.S. Major in Computer Science and minor in Biology, debating a focus in bioinformatics, or gearing strictly towards computer science. Involved in Computer Science Society, Website Manager for The Boston College Torch, BC Ignition, Second Honors.
+			Cumulative GPA – 3.66
+
+Link 3 - http://kevinagleason.co.nf/Skills/RelatedArticles.php
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+ Related Algorithm - Skills - Kevin Gleason 
+
+		Home
+		About Me
+
+		Kevin Gleason
+		Boston College '16
+
+		Related Articles Algorithm
+
+		 I am skilled when it comes to general flow of logic in coding. If given a problem I can usually figure out some way to solve it. Learning the intricacies of a language comes with time, and the more I code the more concise my code becomes.
+
+		 This is an example of one of my early JavaScript algorithms. I was asked if there was some way I could display related articles at the bottom of a page. Since the web host was restrictive and provided no way of achieving that, I set off to hack away in JavaScript and along came this project.
+
+		 It finds related articles prioritizing as follows:  Similar Title Elements > Same Tags > Same Category > Same Author > Random  The findRandom function is rarely called since other elements usually pick up enough similarities, however script will fail in certain situations without it.
+
+			Sample Title and Tags from The Torch: 
+
+				Saint of the Issue: Nicholas of Myra
+				Topical · Infante · Dec2013
+				Generate New Article
+
+Link 4 - http://kevinagleason.co.nf/Skills/CSS.php
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+ CSS - Skills - Kevin Gleason 
+
+		Home
+		About Me
+
+		Kevin Gleason
+		Boston College '16
+
+		Advanced Knowledge of CSS
+
+		 I understand the capability and power of advanced CSS, but also know that too many style animations can slow the rendering of a web page.
+
+		 The following animation was created one late night once I finished updating The Torch website and had to wait for copy editing to complete.
+
+		 It uses animations "spin-right", "spinX", and "spinY" to create a constant rotate, rotateX, and rotateY of 360deg on three absolutely positioned divs.
+
+	        KG
+
+	        	Kevin
+
+	        	 Gleason
+
+Link 5 - http://kevinagleason.co.nf/Skills/jQueryUI.php
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+ jQuery UI - Skills - Kevin Gleason 
+
+		Home
+		About Me
+
+		Kevin Gleason
+		Boston College '16
+
+		jQuery UI Integration
+
+		I began looking into JavaScript and jQuery libraries a short while ago. After seeing how simple they make some tasks, I have dedicated a good amount of time to learning their useful commands.
+
+		Basketball and soccer are some of my favorite sports. I was captain of both in high school, missing All-Ohio by one spot, a mere few votes, for soccer. Naturally when I saw some of the user interaction capabilities of jQuery, my mind wandered to sports and entertainment.
+
+		jQuery UI has some very neat user interaction capabilities, and the more I see what is possible the more my mind wanders into creating small unique ideas. I used the droppable functions to create this simple basketball interface.
+
+		HOME0
+		AWAY0
+
+Link 6 - http://kevinagleason.co.nf/Skills/SectionHeadlines.php
+<!DOCTYPE html>
+
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+ Section Headlines - Skills - Kevin Gleason 
+
+		Home
+		About Me
+
+		Kevin Gleason
+		Boston College '16
+
+		The Torch Section Headlines
+
+		 I owe my love of web design to a Boston College campus publication, The Torch. This newspaper was just beginning and needed a web manager so I offered my assistance, telling them I did not have much skill, but would learn all I could to help if nobody else offered. Sure enough, no one did.
+
+		The Torch site is run through a German webhost, Jimdo, which does not allow FTP access. Most of my work had to be done through HTML & CSS, until I found small workarounds such as linking iframes and scripts to code I saved in public folders on dropbox.
+
+		 This is one of the first HTML and CSS codes I wrote. Its purpose is for the home page, to show the featured articles of the month.
+
+            Campus News:
+
+                    Faith on the Field
+
+                    by Natalie Yuhas
+
+                 BC Students Spend Week in Urban Immersion
+
+                    by Margaret Antonio
+
+                 BC Hidden Gem: the Campus School
+
+                    By: Alessandra Luedeking
+
+                 Facebook Page Promotes Self-Expression on Campus
+
+                    by Emily Witsberger
+
+                Life as Culture: Pro-Life Club and March for Life
+
+                    by Tara Wengronowitz
+
+            Around the World:
+
+                    Trappist Monastery Brews Beer
+
+                    by Gjergji Evangjeli
+
+                A Little Victory for an Important Cause
+
+                    by Alexander Marsland
+
+                Pope Francis Appoints New Cardinals
+
+                    by Ethan Mack
+
+                Puerto Rican Servant of God Closer to Sainthood
+
+                    by Jay Chin
+
+                 Belgium May Soon Legalize Minor Euthanasia
+
+                    by Sofia Infante
+
+            Faith Features:
+
+                    Saint of the Issue: Pier Giogio Frassati
+
+                    by Margo Borders
+
+                Ecumenism: The Objectivism of Ecumenism
+
+                    by Jay Chin
+
+                Pro-Life: Abortion and Practicality
+
+                    by Gjergji Evangjeli
+
+                Liturgy: The Forgotten Liturgy
+
+                    by Jay Chin
+
+                Devil’s Advocate: The Great Equalizers
+
+                    by Anthony Cossette
+
+

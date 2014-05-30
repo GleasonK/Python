@@ -1,0 +1,1094 @@
+Link 1 - http://denturesohio.co.nf
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<link href="/CSS/style.css" rel="stylesheet" type="text/css">
+<link href="/CSS/layout.css" rel="stylesheet" type="text/css">
+<link href="/CSS/elements.css" rel="stylesheet" type="text/css">
+
+<meta name="description" content="Denture Solutions is a mobile dentistry practice operating all over North-East Ohio.">
+<meta name="keywords" content="Denture, Dentures, solution, dentist, mobile, ohio, NEO">
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+
+<title> Home - Denture Solutions </title>
+</head>
+
+<body id = "main-body" >
+
+<div style="width:100%;"><center><img id = "banner" src = "Web Content/Banner.jpg"/></center></div>
+
+<div class = "page-container" style="overflow:hidden;">
+
+<script src="/js/jquery.js"> </script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).width() < 1000) {
+	  $('#nav-block').removeClass('navbar-fixed');
+      $('.page-container').css('padding-top', 0);
+      $('#scroll-bar').css('margin-top', 0);
+      $('#scroll-bar').css('visibility', 'hidden');
+      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	  }
+    else {
+	    if ($(window).scrollTop() > 210) {
+	      $('#scroll-bar').addClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#nav-block').addClass('navbar-fixed');
+	      }
+	    else if ($(window).scrollTop() > 165) {
+	      $('#nav-block').addClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 42);
+	      $('#scroll-bar').css('margin-top', -42);
+	      $('#scroll-bar').css('visibility', 'visible');
+	    }
+	    
+	    if ($(window).scrollTop() < 166) {
+	      $('#nav-block').removeClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 0);
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#scroll-bar').css('visibility', 'hidden');
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	    }
+	    else if ($(window).scrollTop() < 211) {
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('z-index', 10);
+	    }
+   }
+  });
+});
+
+</script>
+
+<style>
+
+.navbar-fixed {
+    top: 45px;
+    margin:0;
+    padding: 0;
+    z-index: 100;
+  position: fixed;
+    width: 1000px;
+}
+
+.scroll-bar-fixed {
+	top: 0;
+    z-index: 100;
+  position: fixed!important;
+    width: 1000px;
+    margin: 0;
+    visibility: visible!important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id = "scroll-bar"></div>
+
+<div id = "nav-block">
+
+	<ul id = "main-nav" style="">
+		<a href="/index.php"><li>Home</li></a>
+		<li><a href="/Services.php"><div>Services</div></a>
+			<ul>
+				<a href="/Services/Bed Side.php"><li>Bed Side Procedures</li></a>
+				<a href="/Services/Lab.php"><li>Lab Procedures</li></a>
+			</ul></li>
+		<li><a href="/Dentists.php"><div>Dentists</div></a>
+			<ul>
+				<a href="/Dentists/Our Dentists.php"><li>Our Dentists</li></a>
+				<a href="/Dentists/New Dentists.php"><li>New Dentists</li></a>
+			</ul></li>
+		<li><a href="/The Practice.php"><div>The Practice</div></a>
+			<ul>
+				<a href="/The Practice/About Us.php"><li>About Us</li></a>
+				<a href="/The Practice/Cities.php"><li>Cities Served</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+			</ul></li>
+		<a href="/Sign Up.php"><li>Sign Up</li></a>
+	</ul>
+</div>
+<div align = "center" id = "slider-box">
+<div style="padding-top:5px; margin-top:15px;"> <!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--  -->
+<!-- Create header image fie to store here -->
+<!-- 915 x 400 pixel photos -->
+</head>
+<body>
+
+
+<!-- Begin DWUser_EasyRotator -->
+<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+<div class="dwuserEasyRotator" style="width: 915px; height: 400px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-71-108-101-97-115-111-110-75-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="Denture Solutions" data-erTID="{8fs2jams8k2345763339831}">
+	<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+	<li>
+		<img class="main" src="/Slider/Stay Home.jpg" />
+		<img class="thumb" src="/Slider/Stay Home.jpg" />
+	</li>
+	<li>
+		<img class="main" src="/Slider/Dentures.jpg" alt="Dentists &amp; Dental Technicians come directly to you!" />
+		<img class="thumb" src="/Slider/Dentures.jpg" />
+		<span class="title">Dentists & Dental Technicians come directly to you!</span>
+		<span class="desc">You never have to leave the comfort of your home.</span>
+	</li>
+	<li>
+		<img class="main" src="/Slider/Medicaid1.jpg" />
+		<img class="thumb" src="/Slider/Medicaid1.jpg" />
+	</li>
+</ul>
+</div>
+	<div data-ertype="layout" data-ertemplateName="NONE" style="">		<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{__numTiles:3, scaleMode:'fillArea', imgType:'main', __loopNextButton:false, __arrowButtonMode:'rollover'}">
+			<div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
+				<div class="erimgMain_slide">
+					<div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+				</div>
+			</div>
+			<div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+			<div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+			<div class="erdots" style="overflow: hidden; margin: 0; font-size: 10px; font-family: 'Lucida Grande', 'Lucida Sans', Arial, _sans; color: #FFF; position: absolute; left:800px; right:0; bottom:5px;" data-erConfig="{showText:false}" align="center">
+				<div class="erdots_wrap" style="wasbackground-color: #CFC; float: none;" align="left"> <!-- modify the float on this element to make left/right/none=center aligned. -->
+					<span class="erdots_btn_selected" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: default; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_black_65.png) top left no-repeat;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_normal" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_black_35.png) top left no-repeat;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_hover" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_black_65.png) top left no-repeat;">
+						&nbsp;
+					</span>
+				</div>
+		</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+			This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
+			<br /><br />
+            Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.
+			<br /><br />
+			<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>   
+		</div>
+		<noscript>
+			Rotator powered by EasyRotator. Please enable JavaScript to view.
+		</noscript>
+		<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+	
+	</div>
+</div></div>
+<!-- End DWUser_EasyRotator -->
+
+
+
+</body>
+</html> </div>
+</div>
+
+<div class = "highlighted" align="center" style="margin:10px;">Lifetime Guarantee on All Standard & Deluxe Dentures</div>
+
+<div class="split-case" id = "main-split">
+<div class="two-split"><div id = "sectionHead">
+	<h1>We Understand!</h1>
+</div>
+<div id = "sectionDesc">
+	<p>Our doctors understand the struggle of traveling to the dentist office and back to your place of residence or nursing home several times to get your new dentures.</p> <p class = "highlighted" style="margin-top:8px;">That's why we come to you!</p>
+</div></div>
+
+<div class="two-split"><div id = "sectionHead">
+	<h1>Quick and Easy</h1>
+</div>
+<div id = "sectionDesc">
+	<p>We will bring the doctor’s office straight to you. No hassles, no problems. What's not to love about our quick two to three appointment turnaround time on new dentures! Call today and schedule your FREE denture evaluation.</p>
+</div></div>
+<div class="two-split"><div id = "sectionHead1">
+	<h1 style="margin-left:20px; font-size:41px">Qualified, Certified</h1>
+</div>
+<div id = "sectionDesc">
+	<p>All our doctors are fully credentialed and JACHO certified, with extensive experience and practice in the nursing home environment. Denture Solutions is a Certified Medicaid Provider. Our exclusive focus is your denture needs.</p>
+</div></div>
+
+<div class="two-split"><div id = "sectionHead1">
+	<h1>Many Services</h1>
+</div>
+<div id = "sectionDesc">
+	<p>Repair or reline your dentures the same day that we receive them and we can duplicate your existing dentures for a spare set. We offer a multitude of bed-side and laboratory procedures. Getting new dentures has never been easier!</p>
+</div></div>
+
+
+<center>
+<h1>Never go without your dentures again.</h1>
+<h1>Let us be the solution to all your dental needs!</h1>
+</center>
+
+</div>
+
+<div id="lower-links">
+	<div class="split-case">
+	<!-- Left Column -->
+		<div class="three-split" style="color:white">
+			<ul id = "lower-links-list">
+				<a href="/index.php" style=""><li>Return to Home</li></a>
+				<a href="/Services.php"><li>See Our Services</li></a>
+				<a href="/Dentists.php"><li>The Dentists</li></a>
+				<a href="/The Practice.php"><li>About DS</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+				<a href="/Sign Up.php"><li>Sign Up Online!</li></a>
+			</ul>
+		</div>
+	<!-- Middle Columns -->
+		<div class="three-split" style="color:white">
+			<div style="width:140px;">
+			<a href="tel:2166424242"><div id = "call-button"></div></a>
+			<a href="mailto:DentureSolutions@yahoo.com"><div id = "email"></div></a>
+			<a href = "javascript:window.print()"><div id = "print"></div></a>
+			<a href="/sitemap.html"><div id = "sitemap"></div></a>
+		</div></div>
+	<!-- Right Column -->
+		<div class="three-split" style="color:white">
+			<div id = "hours">Hours: Mon-Fri 9AM-6PM <br/>
+				<a href="/Web Content/Patient_Enrollment_From.doc">Download the Sign Up Form</a>
+			</div>
+			<a href="http://my.angieslist.com/angieslist/Review/6474994"><img id = "angies" src="/Web Content/Buttons/AngiesList.jpg" /></a>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+<!-- PROFESSIONAL SERVICE SINCE... -->
+<center><footer id="footer">Denture Solutions | Mobile Dentistry Practice | (216) 642-4242 </footer></center>
+</body>
+</html>
+Link 2 - http://denturesohio.co.nf/index.php
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<link href="/CSS/style.css" rel="stylesheet" type="text/css">
+<link href="/CSS/layout.css" rel="stylesheet" type="text/css">
+<link href="/CSS/elements.css" rel="stylesheet" type="text/css">
+
+<meta name="description" content="Denture Solutions is a mobile dentistry practice operating all over North-East Ohio.">
+<meta name="keywords" content="Denture, Dentures, solution, dentist, mobile, ohio, NEO">
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+
+<title> Home - Denture Solutions </title>
+</head>
+
+<body id = "main-body" >
+
+<div style="width:100%;"><center><img id = "banner" src = "Web Content/Banner.jpg"/></center></div>
+
+<div class = "page-container" style="overflow:hidden;">
+
+<script src="/js/jquery.js"> </script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).width() < 1000) {
+	  $('#nav-block').removeClass('navbar-fixed');
+      $('.page-container').css('padding-top', 0);
+      $('#scroll-bar').css('margin-top', 0);
+      $('#scroll-bar').css('visibility', 'hidden');
+      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	  }
+    else {
+	    if ($(window).scrollTop() > 210) {
+	      $('#scroll-bar').addClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#nav-block').addClass('navbar-fixed');
+	      }
+	    else if ($(window).scrollTop() > 165) {
+	      $('#nav-block').addClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 42);
+	      $('#scroll-bar').css('margin-top', -42);
+	      $('#scroll-bar').css('visibility', 'visible');
+	    }
+	    
+	    if ($(window).scrollTop() < 166) {
+	      $('#nav-block').removeClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 0);
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#scroll-bar').css('visibility', 'hidden');
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	    }
+	    else if ($(window).scrollTop() < 211) {
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('z-index', 10);
+	    }
+   }
+  });
+});
+
+</script>
+
+<style>
+
+.navbar-fixed {
+    top: 45px;
+    margin:0;
+    padding: 0;
+    z-index: 100;
+  position: fixed;
+    width: 1000px;
+}
+
+.scroll-bar-fixed {
+	top: 0;
+    z-index: 100;
+  position: fixed!important;
+    width: 1000px;
+    margin: 0;
+    visibility: visible!important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id = "scroll-bar"></div>
+
+<div id = "nav-block">
+
+	<ul id = "main-nav" style="">
+		<a href="/index.php"><li>Home</li></a>
+		<li><a href="/Services.php"><div>Services</div></a>
+			<ul>
+				<a href="/Services/Bed Side.php"><li>Bed Side Procedures</li></a>
+				<a href="/Services/Lab.php"><li>Lab Procedures</li></a>
+			</ul></li>
+		<li><a href="/Dentists.php"><div>Dentists</div></a>
+			<ul>
+				<a href="/Dentists/Our Dentists.php"><li>Our Dentists</li></a>
+				<a href="/Dentists/New Dentists.php"><li>New Dentists</li></a>
+			</ul></li>
+		<li><a href="/The Practice.php"><div>The Practice</div></a>
+			<ul>
+				<a href="/The Practice/About Us.php"><li>About Us</li></a>
+				<a href="/The Practice/Cities.php"><li>Cities Served</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+			</ul></li>
+		<a href="/Sign Up.php"><li>Sign Up</li></a>
+	</ul>
+</div>
+<div align = "center" id = "slider-box">
+<div style="padding-top:5px; margin-top:15px;"> <!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!--  -->
+<!-- Create header image fie to store here -->
+<!-- 915 x 400 pixel photos -->
+</head>
+<body>
+
+
+<!-- Begin DWUser_EasyRotator -->
+<script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
+<div class="dwuserEasyRotator" style="width: 915px; height: 400px; position:relative; text-align: left;" data-erConfig="{autoplayEnabled:true, lpp:'102-105-108-101-58-47-47-47-85-115-101-114-115-47-71-108-101-97-115-111-110-75-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47', wv:1}" data-erName="Denture Solutions" data-erTID="{8fs2jams8k2345763339831}">
+	<div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+	<li>
+		<img class="main" src="/Slider/Stay Home.jpg" />
+		<img class="thumb" src="/Slider/Stay Home.jpg" />
+	</li>
+	<li>
+		<img class="main" src="/Slider/Dentures.jpg" alt="Dentists &amp; Dental Technicians come directly to you!" />
+		<img class="thumb" src="/Slider/Dentures.jpg" />
+		<span class="title">Dentists & Dental Technicians come directly to you!</span>
+		<span class="desc">You never have to leave the comfort of your home.</span>
+	</li>
+	<li>
+		<img class="main" src="/Slider/Medicaid1.jpg" />
+		<img class="thumb" src="/Slider/Medicaid1.jpg" />
+	</li>
+</ul>
+</div>
+	<div data-ertype="layout" data-ertemplateName="NONE" style="">		<div class="erimgMain" style="position: absolute; left:0;right:0;top:0;bottom:0;" data-erConfig="{__numTiles:3, scaleMode:'fillArea', imgType:'main', __loopNextButton:false, __arrowButtonMode:'rollover'}">
+			<div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
+				<div class="erimgMain_slide">
+					<div class="erimgMain_img" style="position: absolute; left: 0; right: 0; top: 0; bottom: 0;"></div>
+				</div>
+			</div>
+			<div class="erimgMain_arrowLeft" style="position:absolute; left: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+			<div class="erimgMain_arrowRight" style="position:absolute; right: 10px; top: 50%; margin-top: -15px;" data-erConfig="{image:'circleSmall', image2:'circleSmall'}"></div>
+			<div class="erdots" style="overflow: hidden; margin: 0; font-size: 10px; font-family: 'Lucida Grande', 'Lucida Sans', Arial, _sans; color: #FFF; position: absolute; left:800px; right:0; bottom:5px;" data-erConfig="{showText:false}" align="center">
+				<div class="erdots_wrap" style="wasbackground-color: #CFC; float: none;" align="left"> <!-- modify the float on this element to make left/right/none=center aligned. -->
+					<span class="erdots_btn_selected" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: default; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_black_65.png) top left no-repeat;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_normal" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_black_35.png) top left no-repeat;">
+						&nbsp;
+					</span>
+					<span class="erdots_btn_hover" style="padding-left: 0; width: 21px; height: 20px; display: inline-block; text-align: center; vertical-align: middle; line-height: 20px; margin: 0 2px 0 0; cursor: pointer; background: url(http://easyrotator.s3.amazonaws.com/1/i/rotator/dots/export/20_14_black_65.png) top left no-repeat;">
+						&nbsp;
+					</span>
+				</div>
+		</div><div class="erabout erFixCSS3" style="color: #FFF; text-align: left; background: #000; background:rgba(0,0,0,0.93); border: 2px solid #FFF; padding: 20px; font: normal 11px/14px Verdana,_sans; width: 300px; border-radius: 10px; display:none;">
+			This <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">jQuery slider</a> was created with the free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/" target="_blank">EasyRotator</a> software from DWUser.com.
+			<br /><br />
+            Use WordPress? The free <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">EasyRotator for WordPress</a> plugin lets you create beautiful <a style="color:#FFF;" href="http://www.dwuser.com/easyrotator/wordpress/" target="_blank">WordPress sliders</a> in seconds.
+			<br /><br />
+			<a style="color:#FFF;" href="#" class="erabout_ok">OK</a>   
+		</div>
+		<noscript>
+			Rotator powered by EasyRotator. Please enable JavaScript to view.
+		</noscript>
+		<script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
+	
+	</div>
+</div></div>
+<!-- End DWUser_EasyRotator -->
+
+
+
+</body>
+</html> </div>
+</div>
+
+<div class = "highlighted" align="center" style="margin:10px;">Lifetime Guarantee on All Standard & Deluxe Dentures</div>
+
+<div class="split-case" id = "main-split">
+<div class="two-split"><div id = "sectionHead">
+	<h1>We Understand!</h1>
+</div>
+<div id = "sectionDesc">
+	<p>Our doctors understand the struggle of traveling to the dentist office and back to your place of residence or nursing home several times to get your new dentures.</p> <p class = "highlighted" style="margin-top:8px;">That's why we come to you!</p>
+</div></div>
+
+<div class="two-split"><div id = "sectionHead">
+	<h1>Quick and Easy</h1>
+</div>
+<div id = "sectionDesc">
+	<p>We will bring the doctor’s office straight to you. No hassles, no problems. What's not to love about our quick two to three appointment turnaround time on new dentures! Call today and schedule your FREE denture evaluation.</p>
+</div></div>
+<div class="two-split"><div id = "sectionHead1">
+	<h1 style="margin-left:20px; font-size:41px">Qualified, Certified</h1>
+</div>
+<div id = "sectionDesc">
+	<p>All our doctors are fully credentialed and JACHO certified, with extensive experience and practice in the nursing home environment. Denture Solutions is a Certified Medicaid Provider. Our exclusive focus is your denture needs.</p>
+</div></div>
+
+<div class="two-split"><div id = "sectionHead1">
+	<h1>Many Services</h1>
+</div>
+<div id = "sectionDesc">
+	<p>Repair or reline your dentures the same day that we receive them and we can duplicate your existing dentures for a spare set. We offer a multitude of bed-side and laboratory procedures. Getting new dentures has never been easier!</p>
+</div></div>
+
+
+<center>
+<h1>Never go without your dentures again.</h1>
+<h1>Let us be the solution to all your dental needs!</h1>
+</center>
+
+</div>
+
+<div id="lower-links">
+	<div class="split-case">
+	<!-- Left Column -->
+		<div class="three-split" style="color:white">
+			<ul id = "lower-links-list">
+				<a href="/index.php" style=""><li>Return to Home</li></a>
+				<a href="/Services.php"><li>See Our Services</li></a>
+				<a href="/Dentists.php"><li>The Dentists</li></a>
+				<a href="/The Practice.php"><li>About DS</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+				<a href="/Sign Up.php"><li>Sign Up Online!</li></a>
+			</ul>
+		</div>
+	<!-- Middle Columns -->
+		<div class="three-split" style="color:white">
+			<div style="width:140px;">
+			<a href="tel:2166424242"><div id = "call-button"></div></a>
+			<a href="mailto:DentureSolutions@yahoo.com"><div id = "email"></div></a>
+			<a href = "javascript:window.print()"><div id = "print"></div></a>
+			<a href="/sitemap.html"><div id = "sitemap"></div></a>
+		</div></div>
+	<!-- Right Column -->
+		<div class="three-split" style="color:white">
+			<div id = "hours">Hours: Mon-Fri 9AM-6PM <br/>
+				<a href="/Web Content/Patient_Enrollment_From.doc">Download the Sign Up Form</a>
+			</div>
+			<a href="http://my.angieslist.com/angieslist/Review/6474994"><img id = "angies" src="/Web Content/Buttons/AngiesList.jpg" /></a>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+<!-- PROFESSIONAL SERVICE SINCE... -->
+<center><footer id="footer">Denture Solutions | Mobile Dentistry Practice | (216) 642-4242 </footer></center>
+</body>
+</html>
+Link 3 - http://denturesohio.co.nf/Services.php
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href="/CSS/style.css" rel="stylesheet" type="text/css">
+<link href="/CSS/layout.css" rel="stylesheet" type="text/css">
+<link href="/CSS/elements.css" rel="stylesheet" type="text/css">
+
+<meta name="description" content="Denture Solutions is a mobile dentistry practice operating all over North-East Ohio.">
+<meta name="keywords" content="Denture, Dentures, solution, dentist, mobile, ohio, NEO">
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+
+<title> Services - Denture Solutions </title>
+</head>
+
+<body id = "main-body" >
+
+<div style="width:100%;"><center><img id = "banner" src = "Web Content/Banner.jpg"/></center></div>
+
+<div class = "page-container" style="overflow:hidden;">
+
+<script src="/js/jquery.js"> </script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).width() < 1000) {
+	  $('#nav-block').removeClass('navbar-fixed');
+      $('.page-container').css('padding-top', 0);
+      $('#scroll-bar').css('margin-top', 0);
+      $('#scroll-bar').css('visibility', 'hidden');
+      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	  }
+    else {
+	    if ($(window).scrollTop() > 210) {
+	      $('#scroll-bar').addClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#nav-block').addClass('navbar-fixed');
+	      }
+	    else if ($(window).scrollTop() > 165) {
+	      $('#nav-block').addClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 42);
+	      $('#scroll-bar').css('margin-top', -42);
+	      $('#scroll-bar').css('visibility', 'visible');
+	    }
+	    
+	    if ($(window).scrollTop() < 166) {
+	      $('#nav-block').removeClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 0);
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#scroll-bar').css('visibility', 'hidden');
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	    }
+	    else if ($(window).scrollTop() < 211) {
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('z-index', 10);
+	    }
+   }
+  });
+});
+
+</script>
+
+<style>
+
+.navbar-fixed {
+    top: 45px;
+    margin:0;
+    padding: 0;
+    z-index: 100;
+  position: fixed;
+    width: 1000px;
+}
+
+.scroll-bar-fixed {
+	top: 0;
+    z-index: 100;
+  position: fixed!important;
+    width: 1000px;
+    margin: 0;
+    visibility: visible!important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id = "scroll-bar"></div>
+
+<div id = "nav-block">
+
+	<ul id = "main-nav" style="">
+		<a href="/index.php"><li>Home</li></a>
+		<li><a href="/Services.php"><div>Services</div></a>
+			<ul>
+				<a href="/Services/Bed Side.php"><li>Bed Side Procedures</li></a>
+				<a href="/Services/Lab.php"><li>Lab Procedures</li></a>
+			</ul></li>
+		<li><a href="/Dentists.php"><div>Dentists</div></a>
+			<ul>
+				<a href="/Dentists/Our Dentists.php"><li>Our Dentists</li></a>
+				<a href="/Dentists/New Dentists.php"><li>New Dentists</li></a>
+			</ul></li>
+		<li><a href="/The Practice.php"><div>The Practice</div></a>
+			<ul>
+				<a href="/The Practice/About Us.php"><li>About Us</li></a>
+				<a href="/The Practice/Cities.php"><li>Cities Served</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+			</ul></li>
+		<a href="/Sign Up.php"><li>Sign Up</li></a>
+	</ul>
+</div>
+<!-- CONTENT HERE -->
+<div style="height:3px;"></div>
+<div class="services-box" style="border-bottom: 2px ridge #1a2248;">
+	<a href = "/Services/Lab.php"><img style = "width:100%" src = "/Web Content/Page Photos/BedSide.jpg" /></a>
+</div>
+
+<div class = "services-box" style="margin-bottom:-15px;">
+	<a href = "/Services/Bed Side.php"><img style = "width:100%" src = "/Web Content/Page Photos/Lab.jpg" /></a>
+</div>
+
+
+<div id="lower-links">
+	<div class="split-case">
+	<!-- Left Column -->
+		<div class="three-split" style="color:white">
+			<ul id = "lower-links-list">
+				<a href="/index.php" style=""><li>Return to Home</li></a>
+				<a href="/Services.php"><li>See Our Services</li></a>
+				<a href="/Dentists.php"><li>The Dentists</li></a>
+				<a href="/The Practice.php"><li>About DS</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+				<a href="/Sign Up.php"><li>Sign Up Online!</li></a>
+			</ul>
+		</div>
+	<!-- Middle Columns -->
+		<div class="three-split" style="color:white">
+			<div style="width:140px;">
+			<a href="tel:2166424242"><div id = "call-button"></div></a>
+			<a href="mailto:DentureSolutions@yahoo.com"><div id = "email"></div></a>
+			<a href = "javascript:window.print()"><div id = "print"></div></a>
+			<a href="/sitemap.html"><div id = "sitemap"></div></a>
+		</div></div>
+	<!-- Right Column -->
+		<div class="three-split" style="color:white">
+			<div id = "hours">Hours: Mon-Fri 9AM-6PM <br/>
+				<a href="/Web Content/Patient_Enrollment_From.doc">Download the Sign Up Form</a>
+			</div>
+			<a href="http://my.angieslist.com/angieslist/Review/6474994"><img id = "angies" src="/Web Content/Buttons/AngiesList.jpg" /></a>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+<center><footer id="footer">Denture Solutions | Mobile Dentistry Practice | (216) 642-4242 </footer></center>
+</body>
+</html>
+Link 5 - http://denturesohio.co.nf/Services/Lab.php
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link href="/CSS/style.css" rel="stylesheet" type="text/css">
+<link href="/CSS/layout.css" rel="stylesheet" type="text/css">
+<link href="/CSS/elements.css" rel="stylesheet" type="text/css">
+
+<meta name="description" content="Denture Solutions is a mobile dentistry practice operating all over North-East Ohio.">
+<meta name="keywords" content="Denture, Dentures, solution, dentist, mobile, ohio, NEO">
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+
+<title> Lab Procedures - Denture Solutions </title><style>
+	h1 {
+		padding-top: 20px;
+		padding-bottom: 0;
+	}
+
+</style>
+
+</head>
+
+<body id = "main-body" >
+
+<div style="width:100%;"><center><img id = "banner" src = "../Web Content/Banner.jpg"/></center></div>
+
+<div class = "page-container" style="overflow:hidden;">
+
+<script src="/js/jquery.js"> </script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).width() < 1000) {
+	  $('#nav-block').removeClass('navbar-fixed');
+      $('.page-container').css('padding-top', 0);
+      $('#scroll-bar').css('margin-top', 0);
+      $('#scroll-bar').css('visibility', 'hidden');
+      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	  }
+    else {
+	    if ($(window).scrollTop() > 210) {
+	      $('#scroll-bar').addClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#nav-block').addClass('navbar-fixed');
+	      }
+	    else if ($(window).scrollTop() > 165) {
+	      $('#nav-block').addClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 42);
+	      $('#scroll-bar').css('margin-top', -42);
+	      $('#scroll-bar').css('visibility', 'visible');
+	    }
+	    
+	    if ($(window).scrollTop() < 166) {
+	      $('#nav-block').removeClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 0);
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#scroll-bar').css('visibility', 'hidden');
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	    }
+	    else if ($(window).scrollTop() < 211) {
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('z-index', 10);
+	    }
+   }
+  });
+});
+
+</script>
+
+<style>
+
+.navbar-fixed {
+    top: 45px;
+    margin:0;
+    padding: 0;
+    z-index: 100;
+  position: fixed;
+    width: 1000px;
+}
+
+.scroll-bar-fixed {
+	top: 0;
+    z-index: 100;
+  position: fixed!important;
+    width: 1000px;
+    margin: 0;
+    visibility: visible!important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id = "scroll-bar"></div>
+
+<div id = "nav-block">
+
+	<ul id = "main-nav" style="">
+		<a href="/index.php"><li>Home</li></a>
+		<li><a href="/Services.php"><div>Services</div></a>
+			<ul>
+				<a href="/Services/Bed Side.php"><li>Bed Side Procedures</li></a>
+				<a href="/Services/Lab.php"><li>Lab Procedures</li></a>
+			</ul></li>
+		<li><a href="/Dentists.php"><div>Dentists</div></a>
+			<ul>
+				<a href="/Dentists/Our Dentists.php"><li>Our Dentists</li></a>
+				<a href="/Dentists/New Dentists.php"><li>New Dentists</li></a>
+			</ul></li>
+		<li><a href="/The Practice.php"><div>The Practice</div></a>
+			<ul>
+				<a href="/The Practice/About Us.php"><li>About Us</li></a>
+				<a href="/The Practice/Cities.php"><li>Cities Served</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+			</ul></li>
+		<a href="/Sign Up.php"><li>Sign Up</li></a>
+	</ul>
+</div>
+<!-- CONTENT HERE -->
+<center><h1>Denture Services</h1></center>
+<div align="center">
+	<div class = "highlighted" align="center" style="margin:10px;">All our standard and deluxe denture appliances <br/> are guaranteed against breakage for life.</div>
+	<p class = "ds_subhead">The deluxe denture features a customized tooth placement to allow an individualized appearance with the highest quality teeth to with stand more rigorous wear and function. Patient satisfaction is guaranteed!</p> 	
+</div>
+<center><div style="width:40%; margin-top:25px;"><h1 id="title-tag">Laboratory Procedures</h1></div></center>
+<div id = "ds_content">
+	<div class="ds_content_inner">
+		<b><span class = "nd_header">Denture Duplicating</span></b>
+		<img class = "lp_img" src="../Web%20Content/images/Duplicate.jpg" align="right" alt="Duplicate">
+		<p>It is possible to make a duplicate or an exact copy of your denture inexpensively and quick. These dentures make it possible to keep a spare set tucked away. Our duplicated dentures are a copy of your current denture providing exactly the same fit.</p>
+		<b><span class = "ds_header">Hard Reline</span></b>
+		<p>An impression of the gum tissue is taken with the patient’s denture and sent to our laboratory to process a new acrylic denture base under high pressure and heat.  This guarantees a long lasting, high quality, dimensionally stable denture appliance.</p>
+		<b><span class = "ds_header">Soft Reline</span></b>
+		<p>Is recommended for resorbed ridges to provide a cushioned contact with the gum tissues and provide additional chewing comfort. Laboratory processing insures longer lasting fit and stability then the bed-side soft reline material allows.</p>
+		<b><span class = "ds_header">Flange Extension</span></b>
+		<p>Flange extension will provide additional support to a loose fitting denture.  This is needed when the original denture base is lacking in adequate length to lock the denture in place with a suction grip. This procedure is only performed in conjunction with a hard reline and only when necessary to insure the best fit possible.</p>
+		<br/>
+		<p align="center"><a id = "ds_href" href="../The Practice/Contact Us.php"<b>Contact us with any questions!</b></p>
+		</div>
+	</div>
+<div id="lower-links">
+	<div class="split-case">
+	<!-- Left Column -->
+		<div class="three-split" style="color:white">
+			<ul id = "lower-links-list">
+				<a href="/index.php" style=""><li>Return to Home</li></a>
+				<a href="/Services.php"><li>See Our Services</li></a>
+				<a href="/Dentists.php"><li>The Dentists</li></a>
+				<a href="/The Practice.php"><li>About DS</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+				<a href="/Sign Up.php"><li>Sign Up Online!</li></a>
+			</ul>
+		</div>
+	<!-- Middle Columns -->
+		<div class="three-split" style="color:white">
+			<div style="width:140px;">
+			<a href="tel:2166424242"><div id = "call-button"></div></a>
+			<a href="mailto:DentureSolutions@yahoo.com"><div id = "email"></div></a>
+			<a href = "javascript:window.print()"><div id = "print"></div></a>
+			<a href="/sitemap.html"><div id = "sitemap"></div></a>
+		</div></div>
+	<!-- Right Column -->
+		<div class="three-split" style="color:white">
+			<div id = "hours">Hours: Mon-Fri 9AM-6PM <br/>
+				<a href="/Web Content/Patient_Enrollment_From.doc">Download the Sign Up Form</a>
+			</div>
+			<a href="http://my.angieslist.com/angieslist/Review/6474994"><img id = "angies" src="/Web Content/Buttons/AngiesList.jpg" /></a>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+<center><footer id="footer">Denture Solutions | Mobile Dentistry Practice | (216) 642-4242 </footer></center>
+</body>
+</html>
+Link 6 - http://denturesohio.co.nf/Dentists.php
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="/CSS/style.css" rel="stylesheet" type="text/css">
+<link href="/CSS/layout.css" rel="stylesheet" type="text/css">
+<link href="/CSS/elements.css" rel="stylesheet" type="text/css">
+
+<meta name="description" content="Denture Solutions is a mobile dentistry practice operating all over North-East Ohio.">
+<meta name="keywords" content="Denture, Dentures, solution, dentist, mobile, ohio, NEO">
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+
+
+<title> Dentists - Denture Solutions </title>
+</head>
+
+<body id = "main-body" >
+
+<div style="width:100%;"><center><img id = "banner" src = "Web Content/Banner.jpg"/></center></div>
+
+<div class = "page-container" style="overflow:hidden;">
+
+<script src="/js/jquery.js"> </script>
+<script type="text/javascript">
+
+$(document).ready(function() {
+  
+  $(window).scroll(function () {
+      //if you hard code, then use console
+      //.log to determine when you want the 
+      //nav bar to stick.  
+      console.log($(window).scrollTop())
+    if ($(window).width() < 1000) {
+	  $('#nav-block').removeClass('navbar-fixed');
+      $('.page-container').css('padding-top', 0);
+      $('#scroll-bar').css('margin-top', 0);
+      $('#scroll-bar').css('visibility', 'hidden');
+      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	  }
+    else {
+	    if ($(window).scrollTop() > 210) {
+	      $('#scroll-bar').addClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#nav-block').addClass('navbar-fixed');
+	      }
+	    else if ($(window).scrollTop() > 165) {
+	      $('#nav-block').addClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 42);
+	      $('#scroll-bar').css('margin-top', -42);
+	      $('#scroll-bar').css('visibility', 'visible');
+	    }
+	    
+	    if ($(window).scrollTop() < 166) {
+	      $('#nav-block').removeClass('navbar-fixed');
+	      $('.page-container').css('padding-top', 0);
+	      $('#scroll-bar').css('margin-top', 0);
+	      $('#scroll-bar').css('visibility', 'hidden');
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	    }
+	    else if ($(window).scrollTop() < 211) {
+	      $('#scroll-bar').removeClass('scroll-bar-fixed');
+	      $('#scroll-bar').css('z-index', 10);
+	    }
+   }
+  });
+});
+
+</script>
+
+<style>
+
+.navbar-fixed {
+    top: 45px;
+    margin:0;
+    padding: 0;
+    z-index: 100;
+  position: fixed;
+    width: 1000px;
+}
+
+.scroll-bar-fixed {
+	top: 0;
+    z-index: 100;
+  position: fixed!important;
+    width: 1000px;
+    margin: 0;
+    visibility: visible!important;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id = "scroll-bar"></div>
+
+<div id = "nav-block">
+
+	<ul id = "main-nav" style="">
+		<a href="/index.php"><li>Home</li></a>
+		<li><a href="/Services.php"><div>Services</div></a>
+			<ul>
+				<a href="/Services/Bed Side.php"><li>Bed Side Procedures</li></a>
+				<a href="/Services/Lab.php"><li>Lab Procedures</li></a>
+			</ul></li>
+		<li><a href="/Dentists.php"><div>Dentists</div></a>
+			<ul>
+				<a href="/Dentists/Our Dentists.php"><li>Our Dentists</li></a>
+				<a href="/Dentists/New Dentists.php"><li>New Dentists</li></a>
+			</ul></li>
+		<li><a href="/The Practice.php"><div>The Practice</div></a>
+			<ul>
+				<a href="/The Practice/About Us.php"><li>About Us</li></a>
+				<a href="/The Practice/Cities.php"><li>Cities Served</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+			</ul></li>
+		<a href="/Sign Up.php"><li>Sign Up</li></a>
+	</ul>
+</div>
+<!-- CONTENT HERE -->
+<div id = "dentists-box" style="border-bottom: 2px ridge #1a2248;">
+	<img style = "width:60%; float:left;" src = "/Web Content/Page Photos/Our Dentists1.jpg" />
+	<div id = "dentists-top-right" style="">
+		<div>
+			<h1> Learn about our dentists!</h1>
+			<ul>
+				<li>We provide mobile denture care to individuals throughout Ohio living in long term care and assisted living facilities.</li>
+				<li>Our doctors are fully credentialed and JACHO certified with extensive experience in the nursing home environment.</li>
+				<li>Our primary focuses are denture construction and reline service.</li>
+			</ul>
+			<a id = "click-to-learn" style="text-decoration:none;" href = "/Dentists/Our Dentists.php">Click to learn more!</a>
+		</div>
+	</div>
+</div>
+
+<div id = "dentists-box" style="margin-bottom:-15px;">
+	<img style = "width:60%; float:left;" src = "/Web Content/Page Photos/New Dentists1.jpg" />
+	<div id = "dentists-top-right" style="">
+		<div>
+			<h1> Interested in our practice?</h1>
+			<ul>
+				<li>We are always looking for more qualified dentists.</li>
+				<li>Dr. Kmieck will teach you his process and techniques from start to finish.</li>  
+				<li>All supplies 
+and equipment will be provided to our participating dentists as well as a 
+localized territory of service.</li>
+			</ul>
+			<a id = "click-to-learn" style="text-decoration:none;" href = "/Dentists/New Dentists.php">Click to learn more!</a>
+		</div>
+	</div>
+</div>
+<div id="lower-links">
+	<div class="split-case">
+	<!-- Left Column -->
+		<div class="three-split" style="color:white">
+			<ul id = "lower-links-list">
+				<a href="/index.php" style=""><li>Return to Home</li></a>
+				<a href="/Services.php"><li>See Our Services</li></a>
+				<a href="/Dentists.php"><li>The Dentists</li></a>
+				<a href="/The Practice.php"><li>About DS</li></a>
+				<a href="/The Practice/Contact Us.php"><li>Contact Us</li></a>
+				<a href="/Sign Up.php"><li>Sign Up Online!</li></a>
+			</ul>
+		</div>
+	<!-- Middle Columns -->
+		<div class="three-split" style="color:white">
+			<div style="width:140px;">
+			<a href="tel:2166424242"><div id = "call-button"></div></a>
+			<a href="mailto:DentureSolutions@yahoo.com"><div id = "email"></div></a>
+			<a href = "javascript:window.print()"><div id = "print"></div></a>
+			<a href="/sitemap.html"><div id = "sitemap"></div></a>
+		</div></div>
+	<!-- Right Column -->
+		<div class="three-split" style="color:white">
+			<div id = "hours">Hours: Mon-Fri 9AM-6PM <br/>
+				<a href="/Web Content/Patient_Enrollment_From.doc">Download the Sign Up Form</a>
+			</div>
+			<a href="http://my.angieslist.com/angieslist/Review/6474994"><img id = "angies" src="/Web Content/Buttons/AngiesList.jpg" /></a>
+		</div>
+	</div>
+	
+</div>
+
+</div>
+<center><footer id="footer">Denture Solutions | Mobile Dentistry Practice | (216) 642-4242 </footer></center>
+</body>
+</html>

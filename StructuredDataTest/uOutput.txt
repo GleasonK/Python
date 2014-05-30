@@ -1,0 +1,65 @@
+                                                                                                                                                                                                      size
+Info                                                                                                                                                                                                      
+ The start type of the Windows Modules Installer service was changed from auto start to demand start.                                                                                                  139
+ The start type of the Windows Modules Installer service was changed from demand start to auto start.                                                                                                  139
+ The Multimedia Class Scheduler service entered the running state.                                                                                                                                      91
+ The Multimedia Class Scheduler service entered the stopped state.                                                                                                                                      83
+ The Application Experience service entered the running state.                                                                                                                                          57
+ The Adobe Flash Player Update Service service entered the running state.                                                                                                                               49
+ The Adobe Flash Player Update Service service entered the stopped state.                                                                                                                               49
+ The Application Experience service entered the stopped state.                                                                                                                                          48
+ The WinHTTP Web Proxy Auto-Discovery Service service entered the running state.                                                                                                                        46
+ Updates Installation Ready: The following updates are downloaded and ready for installation. This computer is currently scheduled to install these updates on ‎Saturday ‎May ‎17 ‎2014 at 3:00 AM:     45
+ The TCP/IP NetBIOS Helper service entered the running state.                                                                                                                                           42
+ The Computer Browser service entered the running state.                                                                                                                                                38
+ The WinHTTP Web Proxy Auto-Discovery Service service entered the stopped state.                                                                                                                        38
+ The Computer Browser service entered the stopped state.                                                                                                                                                37
+ The reason specified was: 0x40030011 [Operating System: Network Connectivity (Planned)]                                                                                                                35
+ The Microsoft .NET Framework NGEN v4.0.30319_X64 service entered the stopped state.                                                                                                                    35
+ The Volume Shadow Copy service entered the running state.                                                                                                                                              35
+ The Microsoft .NET Framework NGEN v4.0.30319_X64 service entered the running state.                                                                                                                    34
+ The Volume Shadow Copy service entered the stopped state.                                                                                                                                              34
+ The TCP/IP NetBIOS Helper service entered the stopped state.                                                                                                                                           33
+ The oldest shadow copy of volume C: was deleted to keep disk space usage for shadow copies of volume C: below the user defined limit.                                                                  28
+ The Microsoft .NET Framework NGEN v4.0.30319_X86 service entered the stopped state.                                                                                                                    24
+ The Microsoft .NET Framework NGEN v4.0.30319_X86 service entered the running state.                                                                                                                    24
+ Module Path: C:\windows\system32\athihvs.dll                                                                                                                                                           24
+ The Microsoft Software Shadow Copy Provider service entered the stopped state.                                                                                                                         21
+ The Windows Modules Installer service entered the stopped state.                                                                                                                                       20
+ The Microsoft Software Shadow Copy Provider service entered the running state.                                                                                                                         20
+ The Windows Modules Installer service entered the running state.                                                                                                                                       20
+ The Windows Installer service entered the stopped state.                                                                                                                                               19
+ The browser has forced an election on network \Device\NetBT_Tcpip_{DF8FF65E-C37A-4A7B-8D57-C26916DA418A} because a master browser was stopped.                                                         19
+ The Windows Installer service entered the running state.                                                                                                                                               19
+ The Windows Search service entered the running state.                                                                                                                                                  19
+ The DNS Client service entered the running state.                                                                                                                                                      18
+ The Windows Search service entered the stopped state.                                                                                                                                                  18
+ The Google Update Service (gupdate) service entered the stopped state.                                                                                                                                 17
+ The Google Update Service (gupdate) service entered the running state.                                                                                                                                 17
+ The Software Protection service entered the stopped state.                                                                                                                                             14
+ The Software Protection service entered the running state.                                                                                                                                             13
+ Name resolution for the name wpad.uccnac246.loc timed out after none of the configured DNS servers responded.                                                                                          13
+ The Windows Media Player Network Sharing Service service entered the running state.                                                                                                                    12
+ The Microsoft Antimalware Service service entered the running state.                                                                                                                                   12
+ Service 'WMPNetworkSvc' started.                                                                                                                                                                       12
+ The Intel(R) Capability Licensing Service Interface service entered the running state.                                                                                                                 11
+ The Windows Error Reporting Service service entered the running state.                                                                                                                                 11
+ The HP Software Framework Service service entered the stopped state.                                                                                                                                   11
+ The Validity VCS Fingerprint Service service entered the running state.                                                                                                                                11
+ The Portable Device Enumerator Service service entered the running state.                                                                                                                              11
+ The Intel(R) Dynamic Application Loader Host Interface Service service entered the running state.                                                                                                      11
+ The Diagnostic System Host service entered the running state.                                                                                                                                          11
+ The Diagnostic System Host service entered the stopped state.                                                                                                                                          11
+ Intel(R) Management Engine Interface driver has started successfully.                                                                                                                                  11
+ The Windows Font Cache Service service entered the running state.                                                                                                                                      10
+ The Workstation service entered the running state.                                                                                                                                                     10
+ The ArcCapture service entered the running state.                                                                                                                                                      10
+ The Audio Service service entered the running state.                                                                                                                                                   10
+ The System Event Notification Service service entered the running state.                                                                                                                               10
+ The Superfetch service entered the running state.                                                                                                                                                      10
+ File System Filter 'luafv' (6.1 ‎2009‎-‎07‎-‎13T18:26:13.000000000Z) has successfully loaded and registered with Filter Manager.                                                                       10
+ The Themes service entered the running state.                                                                                                                                                          10
+ The Shell Hardware Detection service entered the running state.                                                                                                                                        10
+                                                                                                                                                                                                       ...
+
+[99 rows x 1 columns]

@@ -1,0 +1,13 @@
+http://reddit.com
+http://reddit.com/domain/imgur.com/
+http://reddit.com/domain/i.imgur.com/
+http://reddit.com/domain/youtube.com/
+http://reddit.com/domain/m.youtube.com/
+http://reddit.com/domain/slate.com/
+http://reddit.com/domain/ibtimes.com/
+http://reddit.com/domain/haaretz.com/
+http://reddit.com/domain/timesofindia.indiatimes.com/
+http://reddit.com/domain/sci-news.com/
+http://reddit.com/domain/cdn4.sci-news.com/
+http://reddit.com/domain/techcrunch.com/
+http://reddit.com/domain/dunkey.bandcamp.com/
