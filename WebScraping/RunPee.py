@@ -126,3 +126,30 @@ if __name__=='__main__':
     for i in parsedArray:
         print "Movie", i
     # parseData('Data/RunPeeData.txt')
+
+    # ## Acquire movie JSON -- Configured in RunPeeClean, need to configure here
+    # parseArray = open('Data/RunPee/RunPeeData.txt', 'r').read().split(SPLIT_STATEMENT)
+    # parsedJSONArray = []
+    # for movie in parseArray:
+    #     parsedJSONArray.append(parseData(movie))
+    # fout = open('Data/RunPee/RunPeeDataParsed.txt', 'wb')
+    # for movie_json in parsedJSONArray:
+    #     fout.write(str(movie_json))
+    #     fout.write(SPLIT_STATEMENT)
+    #
+    # ## Connect to firebase
+    # firebaseApp = firebase_connect()
+    #
+    # ## Other Commands
+    # # firebase_delete_all(firebaseApp)
+    # movies_json = firebase_get_movie_json(firebaseApp)
+    # titles = firebase_all_titles(movies_json)
+    #
+    # ## Post to Firebase -- Only posts movie titles not already there.
+    # firebase_post_all(parsedJSONArray, titles)
+    #
+    # ## Reprint Test
+    # # movies_json2=firebase_get_movie_json(firebaseApp)
+    # # titles2=firebase_all_titles(movies_json2)
+    # # for title in titles2:
+    # #     print title
